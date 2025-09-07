@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @font-face {
+        font-family: 'CustomFont';
+        src: url('FunnelDisplay-VariableFont_wght.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+
+
+      }
+      h1 {
+                text-decoration: underline;
+                font-family: 'CustomFont', Arial,sans-serif;
+                font-size: 3em;
+                color: #2c6e8d;
+            }
+
+      a {
+                font-family: 'CustomFont', Arial,sans-serif;
+                font-size: 3em;
+                color: rgb(0, 102, 255);
+
+          }
+      .button {
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        background: none;
+        font-family: 'CustomFont', Arial,sans-serif;
+        font-size: clamp(20px, 2.5vw, 50px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #a1e2ff;
+      }
+
+      .button:active {
+        text-decoration-line: underline;
+
+      }
+      .background {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background: url("Assets/bg.jpg") center/cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: -1;
+        margin-top:65px ;
+      }
+      .center-link {
+        display: block;         
+        text-align: center;      
+        margin: 0 auto;        
+        width: fit-content;   
+      }
+      
+      
+    </style>
+    <title>Aegis | Resources</title>
+    <link rel="icon" href="Assets/shield-network-svgrepo-com.svg" type="icon">
+  </head>
+  <body style="height : 1000px;margin:0;background-color: #c5f6ff;">
+    
+    <h1 style="text-align: center; font-size: 100px; margin-top: 200px;margin-bottom: 10px;">Resources</h1>    
+    <p style="font-size: 25px;font-family: CustomFont;color: #2c6e8d;text-align: center;margin-bottom: 50px;">Struggling to recovering from a disaster? Here are some helpful resources!</p>
+    <a href="https://www.disasterassistance.gov/ " target="_blank" style="text-align: center;font-size: 30px;margin-bottom: 20px;" class="center-link"> disasterassistance.gov </a>
+    <a href="https://grist.org/extreme-weather/disaster-preparation-recovery-resources/#:~:text=Your%20guide%20to%20finding%20accurate%20information%2C%20emergency%20kits%2C,of%20a%20hurricane%2C%20wildfire%2C%20flood%2C%20or%20other%20disaster." target="_blank" style="text-align: center;font-size: 30px;margin-bottom: 20px;" class="center-link"> grist.org </a>
+    <a href="https://www.redcross.org" target="_blank" style="text-align: center;font-size: 30px;margin-bottom: 20px;" class="center-link"> american red cross.org </a>
+    <a href="https://www.ready.gov/" target="_blank" style="text-align: center;font-size: 30px;margin-bottom: 20px;" class="center-link"> ready.gov </a>
+
+    
+    <div style="background-color : #3388b0;height:75px;top:0;left:0;right:0;position:fixed;display:flex;">
+      <div style="flex:3; display:flex; justify-content:center; align-items:center;cursor: pointer;">
+        <img src="Assets/shield-network-svgrepo-com.svg" style="width:65px; height:65px; object-fit:contain;flex-shrink: 0;">
+        <div style="display: flex; flex-direction: column; margin-left: 5px; margin-top:5px;font-family: Arial; font-size: 9px; color: #a1e2ff;">
+          <span>A</span>
+          <span>e</span>
+          <span>g</span>
+          <span>i</span>
+          <span>s</span>
+        </div>
+
+      </div>
+      <div style="flex:10;padding: 5px;">
+        <button class="button" onclick="window.location.href='Home Page v2.html'">Home</button>
+      </div>
+      <div style="flex:10;"><button class="button" onclick="window.location.href='Resources Page.html'">Resources</button></div>
+        
+      <div style="flex:10;"><button class="button">Contacts</button></div>
+      <div style="flex:5; display:flex; justify-content:center; align-items:center;cursor: pointer;">
+        <button class="button">Login</button
+          ><img src = "Assets/profile-user-account-svgrepo-com.svg" style="margin-right: 5px;width:65px; height:65px; object-fit:contain;flex-shrink: 0;">
+        </div>
+    </div>
+  </body>
+    
