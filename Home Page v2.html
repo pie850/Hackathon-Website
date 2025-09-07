@@ -2,6 +2,7 @@
 <html>
   <head>
     <style>
+      /* Adding Custom Font */
         @font-face {
 
             font-family: 'CustomFont';
@@ -12,7 +13,7 @@
         }
 
         
-
+      /* Class For Top Buttons */
       .button {
         border: none;
         cursor: pointer;
@@ -44,13 +45,16 @@
         margin-top:65px ;
       }
     </style>
+    <!-- Changing icon -->
     <link rel="icon" href = "Assets/shield-network-svgrepo-com.svg">
+    <!-- Changing title of the website -->
     <title>Aegis | Home</title>
   </head>
   <body style="height : 1000px;margin:0;background-color: #aff3ff;">
-    
+    <!-- Drawing Banner Rectangle -->
     <div style="background-color : #3388b0;height:75px;top:0;left:0;right:0;position:fixed;display:flex;">
       <div style="flex:3; display:flex; justify-content:center; align-items:center;cursor: pointer;">
+        <!-- Drawing Logo -->
         <img src="Assets/shield-network-svgrepo-com.svg" style="width:65px; height:65px; object-fit:contain;flex-shrink: 0;">
         <div style="display: flex; flex-direction: column; margin-left: 5px; margin-top:5px;font-family: Arial; font-size: 9px; color: #a1e2ff;">
           <span>A</span>
@@ -61,6 +65,7 @@
         </div>
 
       </div>
+      <!-- Linking the buttons to the pages -->
       <div style="flex:10;padding: 5px;">
         <button class="button" onclick="window.location.href='Home Page v2.html'">Home</button>
       </div>
@@ -76,7 +81,7 @@
           ><img src = "Assets/profile-user-account-svgrepo-com.svg" style="margin-right: 5px;width:65px; height:65px; object-fit:contain;flex-shrink: 0;">
         </div>
     </div>
-
+    <!-- Main body text for home page -->
     <div class = background>
       <p style = "color: #f4fcff;font-family: 'CustomFont', Arial,sans-serif;font-size: clamp(20px, 5vw, 100px);text-shadow: 0px 0px 10px #111111;">Helping Warn People in Danger</p>
     </div>
