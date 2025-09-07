@@ -33,7 +33,8 @@
                 alertprop.forEach(CurrentElement => {
                     CurrentElement.properties.geocode.SAME.forEach(CurrentElement2 => {
                         //Uncomment to test Alert System
-                        SAMEcode = "053013"
+                        
+                        //SAMEcode = "053013"
                         
                         if (SAMEcode == CurrentElement2) {
                             console.log("ALERT")
